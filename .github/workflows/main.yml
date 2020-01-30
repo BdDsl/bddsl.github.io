@@ -1,11 +1,7 @@
 name: CI
 
 on: [push]
- push:
-   branches:
-   - master
-     - release/*
-
+ 
 jobs:
   build:
 
